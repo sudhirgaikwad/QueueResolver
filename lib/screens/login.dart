@@ -14,8 +14,6 @@ class _LoginScreenState extends State<LoginScreen> {
   final _passwordController =TextEditingController();
   String message ='';
   bool _validate =false;
-  //final _formKey = GlobalKey<FormState>();
-  //final _formKey1 = GlobalKey<FormState>();
   GlobalKey<FormState>_key=new GlobalKey();
 
  String emptyvalidation (String value){
